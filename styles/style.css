@@ -1,0 +1,51 @@
+ 
+@import './fonts.css';
+
+body {
+    width: 1920px;
+    font-family: Roboto;
+}
+
+.header {
+    width: 680px;
+    height: 80px;
+    border: 1px solid #000000;
+}
+/*.main {
+}
+.block {
+}
+.title {
+}
+.text {
+} */
+.logo-container {
+    display: inline-block;
+    width: 211px;
+    height: 50px;
+}
+.logo-icon {
+    width: 45px;
+    height: 50px;
+}
+.logo-title {
+    vertical-align: top;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 45px;
+}
+.button {
+    width: 193px;
+    height: 52px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    /*border: none;*/
+    float: right;
+    font-size: 24px;
+    font-weight: 400;
+}
+.logo-subtitle {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20px;
+}
