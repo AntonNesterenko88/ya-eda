@@ -84,3 +84,21 @@ h1, h2 {
 .subtitle span {
     font-weight: 700;
 }
+
+.courier-button {
+    margin-top: 48px;
+    width: 398px;
+    height: 77px;
+    border-radius: 5px;
+    background-color: #F9E059; 
+    font-weight: 400;
+    font-size: 30px; 
+}
+
+.delivery {
+    margin-top: 24px;
+    color: #656565;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+}
