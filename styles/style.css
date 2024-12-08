@@ -1,51 +1,104 @@
- 
+
 @import './fonts.css';
 
 body {
-    width: 1920px;
+    height: 100vh;
+    width: 100vw;
     font-family: Roboto;
+    margin: 0;  
+    color: #000000;
+} 
+
+button {
+    font-family: Roboto;
+    border: none;
+    cursor: pointer;
+}
+
+h1, h2 { 
+    margin: 0;
+}
+
+.container {
+    padding: 0 349px;
 }
 
 .header {
+    overflow: hidden;
+    height: 867px;
+    background: url(../images/header-background.jpg) no-repeat right;
+}
+
+.label {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     width: 680px;
     height: 80px;
-    border: 1px solid #000000;
 }
-/*.main {
+
+.header-label {
+    width: 680px;  
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
-.block {
-}
-.title {
-}
-.text {
-} */
-.logo-container {
-    display: inline-block;
-    width: 211px;
-    height: 50px;
-}
-.logo-icon {
-    width: 45px;
-    height: 50px;
-}
-.logo-title {
-    vertical-align: top;
-    font-size: 45px;
-    font-weight: 700;
-    line-height: 45px;
-}
-.button {
+
+.label-button {
     width: 193px;
-    height: 52px;
+    height: 52px; 
     background-color: #ffffff;
     border-radius: 5px;
-    /*border: none;*/
-    float: right;
-    font-size: 24px;
     font-weight: 400;
+    font-size: 24px; 
+    line-height: 28px;
 }
-.logo-subtitle {
-    font-size: 20px;
+
+.title {
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 75px;
+}
+
+.subtitle {
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.header .title {
+    margin-top: 225px;
+    font-weight: 700; 
+}
+.subtitle {
+    font-weight:400;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.header .subtitle {
+    margin-top: 20px;
+}
+
+.subtitle span {
     font-weight: 700;
-    line-height: 20px;
+}
+
+.courier-button {
+    margin-top: 48px;
+    width: 398px;
+    height: 77px;
+    border-radius: 5px;
+    background-color: #F9E059; 
+    font-weight: 400;
+    font-size: 30px; 
+}
+
+.delivery {
+    margin-top: 24px;
+    color: #656565;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
 }
