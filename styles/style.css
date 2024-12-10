@@ -1,6 +1,10 @@
 
 @import './fonts.css';
 
+* {
+    box-sizing: border-box;
+}
+
 body {
     height: 100vh;
     width: 100vw;
@@ -20,7 +24,7 @@ h1, h2 {
 }
 
 .container {
-    padding: 0 349px;
+    padding: 0 340px;
 }
 
 .header {
@@ -103,28 +107,44 @@ h1, h2 {
     line-height: 21px;;
 }
 
-.advantages{
+.advantages {
     margin-top: 120px;
 }
 
 .advantages-block {
-    margin-top: 20px;
+    position: relative;
     padding: 20px 0 0 20px;
-    width: 100%;
     height: 200px;
     border-radius: 16px;
     background-color: #EDEFF1;
-     
+    flex: 1;
 }
 
-.advantages-block .title {
+.advantages-title {
     font-weight: 500;
     font-size: 30px;
-    
 }
 
-.advantages-text { 
+.advantages-text {
     margin-top: 16px;
     font-weight: 400;
     font-size: 18px;
+}
+
+.advantages-content {
+    margin-top: 48px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.advantages-block:first-child {
+    flex-basis: 100%;
+    background-color: #F9E059;
+}
+
+.advantages-image {
+    position: absolute;
+    top: 0;
+    right: 0;
 }
